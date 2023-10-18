@@ -1,0 +1,14 @@
+body {
+    background-color: #212122;
+}
+
+.memory-layout {
+    background-color: #3a3a41;
+    display: grid;
+    align-self: center;
+    color: antiquewhite;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+}
